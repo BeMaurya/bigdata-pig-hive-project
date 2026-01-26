@@ -90,6 +90,7 @@ The following operations are performed using **HiveQL**:
 SELECT PUBLISHER, COUNT(*) 
 FROM BOOK 
 GROUP BY PUBLISHER;
+```
 
 🐷 Pig Operations
 
