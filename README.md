@@ -171,18 +171,4 @@ It can be extended further using:
 
 ---
 
-## 🔥 Why This README Is Strong
-- Looks **professional**
-- Clear **folder structure**
-- Recruiter-friendly
-- Not “college-copy-paste”
-- Shows **hands-on Big Data skills**
-
-## If you want next:
-- I can **convert your entire PDF into clean `.hql` and `.pig` files**
-- Or **review your GitHub profile** to match this project
-- Or write a **resume project description** from this repo
-
-Just say the word 👌
-
 
