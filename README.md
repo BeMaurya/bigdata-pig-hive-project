@@ -146,7 +146,7 @@ It can be extended further using:
 ## ❤️ Contributions
 Contributions are welcome!
 > Fork the repo → Create a branch → Add feature → Submit PR
-</br>M/br>
+</br></br>
 <div align="center">
 <p>📘 This project is created strictly for educational and learning purposes.</p>
 <p>⭐ If you find this project helpful, feel free to star the repository!</p>
