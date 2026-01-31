@@ -148,13 +148,12 @@ It can be extended further using:
 - 🔥 Apache Spark
 - 📂 Real-world datasets
 
-<p align="center">
-    ⭐ If you find this project helpful, feel free to star the repository!
-</p>
-</br>
-</br>
+
 <p align="center">
   📘 This project is created strictly for educational and learning purposes.
+</p>
+<p align="center">
+    ⭐ If you find this project helpful, feel free to star the repository!
 </p>
 <p align="center">
   © 2026 <strong><a href = "https://bemaurya.github.io">BeMaurya</a></strong>. All rights reserved.
