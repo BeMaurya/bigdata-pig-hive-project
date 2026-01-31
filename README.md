@@ -149,14 +149,11 @@ It can be extended further using:
 - 📂 Real-world datasets
 
 
-<p align="center">
-  📘 This project is created strictly for educational and learning purposes.
-</p>
-<p align="center">
-    ⭐ If you find this project helpful, feel free to star the repository!
-</p>
-<p align="center">
-  © 2026 <strong><a href = "https://bemaurya.github.io">BeMaurya</a></strong>. All rights reserved.
-</p>
+<div align="center">
+<p>📘 This project is created strictly for educational and learning purposes.</p>
+<p>⭐ If you find this project helpful, feel free to star the repository!</p>
+<p>© 2026 <strong><a href = "https://bemaurya.github.io">BeMaurya</a></strong>. All rights reserved.</p>
+</div>
+
 
 
