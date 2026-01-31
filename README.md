@@ -21,7 +21,7 @@ practical implementation rather than theory alone.
 ---
 
 ## 📂 Project Structure
-
+```text
 pig-hive-bigdata-project/
 │
 ├── README.md
@@ -46,7 +46,7 @@ pig-hive-bigdata-project/
 └── screenshots/
 ├── hive_output.png
 ├── pig_output.png
-
+```
 
 ---
 
