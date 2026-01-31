@@ -1,4 +1,4 @@
-# Pig and Hive Big Data Project
+# 🐷 Pig and 🐝 Hive Big Data Project
 
 This repository contains a complete **Big Data implementation project**
 using **Apache Hadoop, Apache Hive, and Apache Pig**.  
@@ -9,11 +9,11 @@ queried, and analyzed efficiently using the Hadoop ecosystem.
 
 ## 🚀 Technologies Used
 
-- **Java JDK 8**
-- **Apache Hadoop 2.7.7**
-- **Apache Hive 3.1.1**
-- **Apache Pig 0.17.0**
-- **HDFS (Hadoop Distributed File System)**
+- ☕ **Java JDK 8**
+- 🐘 **Apache Hadoop 2.7.7**
+- 🐝 **Apache Hive 3.1.1**
+- 🐷 **Apache Pig 0.17.0**
+- 🗄️ **HDFS (Hadoop Distributed File System)**
 
 ---
 
@@ -74,15 +74,15 @@ Contains information about books.
 
 The following operations are performed using **HiveQL**:
 
-- Database creation
-- Table creation
-- Loading data into Hive tables
-- Filtering records
-- Sorting data
-- Group By operations
-- Inner Join, Left Join, Right Join, Full Outer Join
+- 🏗️ Database creation
+- 📋 Table creation
+- 📥 Loading data into Hive tables
+- 🔍 Filtering records
+- 🔃 Sorting data
+- 🧮 Group By operations
+- 🔗 Inner Join, Left Join, Right Join, Full Outer Join
 
-### Example Hive Query
+### 📌 Example Hive Query
 ```sql
 SELECT PUBLISHER, COUNT(*) 
 FROM BOOK 
@@ -95,21 +95,16 @@ Apache Pig is used for data flow processing and analytics.
 
 Operations include:
 
-- Loading data using PigStorage
+- 📥 Loading data using PigStorage
+- 🔍 Projection and filtering
+- 🧩 Grouping data
+- ➕ Aggregation using SUM()
+- 🔗 Join operations
+- 💾 Storing processed output
 
-- Projection and filtering
+### 📌 Example Pig Script
 
-- Grouping data
-
-- Aggregation using SUM()
-
-- Join operations
-
-- Storing processed output
-
-### Example Pig Script
-
-```sql
+```pig
 grouped = GROUP book BY author_id;
 result = FOREACH grouped GENERATE group, SUM(book.no_of_book);
 DUMP result;
@@ -117,54 +112,52 @@ DUMP result;
 
 ## ⚙️ How to Run the Project
 
-Step 1: Start Hadoop Services
+▶️ Step 1: Start Hadoop Services
 ```cmd
 start-all.cmd
 ```
-Step 2: Run Hive
+▶️ Step 2: Run Hive
 ```bash
 hive
 ```
-Execute `.hql` files from the `hive/` directory.
+📂 Execute `.hql` files from the `hive/` directory.
 
-Step 3: Run Pig
+▶️ Step 3: Run Pig
 ```bash
 pig -x local
 ```
-Execute .pig scripts from the pig/ directory.
+📂 Execute .pig scripts from the pig/ directory.
 
 
 ## 🎯 Project Objectives
 
-- Understand Hadoop ecosystem architecture
+- 🧠 Understand Hadoop ecosystem architecture
+- 🧾 Perform SQL-like operations using Hive
+- 🔄 Perform data flow analysis using Pig
+- 🔗 Execute joins and aggregations on large datasets
+- 🧑‍💻 Gain hands-on experience with Big Data tools
 
-- Perform SQL-like operations using Hive
-
-- Perform data flow analysis using Pig
-
-- Execute joins and aggregations on large datasets
-
-- Gain hands-on experience with Big Data tools
-
-## 👨‍💻 Author
-
-### Shubham Kumar
-Big Data | Hadoop | Hive | Pig
 
 ## 📌 Note
 
 This project is intended for educational and learning purposes.  
 It can be extended further using:
 
-- HBase
+- ⚡ HBase
+- 🔄 Sqoop
+- 🔥 Apache Spark
+- 📂 Real-world datasets
 
-- Sqoop
-
-- Spark
-
-- Real-world datasets
-
-## ⭐ If you find this project helpful, feel free to star the repository!
-
+<p align="center">
+    ⭐ If you find this project helpful, feel free to star the repository!
+</p>
+</br>
+</br>
+<p align="center">
+  📘 This project is created strictly for educational and learning purposes.
+</p>
+<p align="center">
+  © 2026 <strong><a href = "https://bemaurya.github.io">BeMaurya</a></strong>. All rights reserved.
+</p>
 
 
