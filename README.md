@@ -92,31 +92,33 @@ FROM BOOK
 GROUP BY PUBLISHER;
 ```
 
-🐷 Pig Operations
+## 🐷 Pig Operations
 
 Apache Pig is used for data flow processing and analytics.
 
 Operations include:
 
-Loading data using PigStorage
+- Loading data using PigStorage
 
-Projection and filtering
+- Projection and filtering
 
-Grouping data
+- Grouping data
 
-Aggregation using SUM()
+- Aggregation using SUM()
 
-Join operations
+- Join operations
 
-Storing processed output
+- Storing processed output
 
-Example Pig Script
+### Example Pig Script
 
+```sql
 grouped = GROUP book BY author_id;
 result = FOREACH grouped GENERATE group, SUM(book.no_of_book);
 DUMP result;
+```
 
-⚙️ How to Run the Project
+## ⚙️ How to Run the Project
 Step 1: Start Hadoop Services
 
 start-all.cmd
@@ -128,7 +130,7 @@ Step 3: Run Pig
 pig -x local
 Execute .pig scripts from the pig/ directory.
 
-🎯 Project Objectives
+## 🎯 Project Objectives
 
 Understand Hadoop ecosystem architecture
 
@@ -140,26 +142,25 @@ Execute joins and aggregations on large datasets
 
 Gain hands-on experience with Big Data tools
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Shubham Kumar
-MCA (Regular)
 Big Data | Hadoop | Hive | Pig
 
-📌 Note
+## 📌 Note
 
 This project is intended for educational and learning purposes.
 It can be extended further using:
 
-HBase
+- HBase
 
-Sqoop
+- Sqoop
 
-Spark
+- Spark
 
-Real-world datasets
+- Real-world datasets
 
-⭐ If you find this project helpful, feel free to star the repository!
+## ⭐ If you find this project helpful, feel free to star the repository!
 
 ---
 
@@ -170,7 +171,7 @@ Real-world datasets
 - Not “college-copy-paste”
 - Shows **hands-on Big Data skills**
 
-If you want next:
+## If you want next:
 - I can **convert your entire PDF into clean `.hql` and `.pig` files**
 - Or **review your GitHub profile** to match this project
 - Or write a **resume project description** from this repo
