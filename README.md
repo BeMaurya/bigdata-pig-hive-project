@@ -119,6 +119,7 @@ DUMP result;
 ```
 
 ## ⚙️ How to Run the Project
+```text
 Step 1: Start Hadoop Services
 
 start-all.cmd
@@ -129,6 +130,7 @@ Execute .hql files from the hive/ directory.
 Step 3: Run Pig
 pig -x local
 Execute .pig scripts from the pig/ directory.
+```
 
 ## 🎯 Project Objectives
 
