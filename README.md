@@ -119,34 +119,39 @@ DUMP result;
 ```
 
 ## ⚙️ How to Run the Project
-```text
+
 Step 1: Start Hadoop Services
-
+```cmd
 start-all.cmd
-
-Step 2: Run Hive
-hive
-Execute .hql files from the hive/ directory.
-Step 3: Run Pig
-pig -x local
-Execute .pig scripts from the pig/ directory.
 ```
+Step 2: Run Hive
+```bash
+hive
+```
+Execute `.hql` files from the `hive/` directory.
+
+Step 3: Run Pig
+```bash
+pig -x local
+```
+Execute .pig scripts from the pig/ directory.
+
 
 ## 🎯 Project Objectives
 
-Understand Hadoop ecosystem architecture
+- Understand Hadoop ecosystem architecture
 
-Perform SQL-like operations using Hive
+- Perform SQL-like operations using Hive
 
-Perform data flow analysis using Pig
+- Perform data flow analysis using Pig
 
-Execute joins and aggregations on large datasets
+- Execute joins and aggregations on large datasets
 
-Gain hands-on experience with Big Data tools
+- Gain hands-on experience with Big Data tools
 
 ## 👨‍💻 Author
 
-Shubham Kumar
+### Shubham Kumar
 Big Data | Hadoop | Hive | Pig
 
 ## 📌 Note
