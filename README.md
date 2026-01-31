@@ -5,9 +5,6 @@ using **Apache Hadoop, Apache Hive, and Apache Pig**.
 The project demonstrates how large datasets can be stored, processed,
 queried, and analyzed efficiently using the Hadoop ecosystem.
 
-This project was developed as part of the **MCA curriculum** and focuses on
-practical implementation rather than theory alone.
-
 ---
 
 ## 🚀 Technologies Used
@@ -152,13 +149,11 @@ Execute .pig scripts from the pig/ directory.
 ## 👨‍💻 Author
 
 ### Shubham Kumar
-```md
 Big Data | Hadoop | Hive | Pig
-```
 
 ## 📌 Note
 
-This project is intended for educational and learning purposes.
+This project is intended for educational and learning purposes.  
 It can be extended further using:
 
 - HBase
