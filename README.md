@@ -5,8 +5,6 @@ using **Apache Hadoop, Apache Hive, and Apache Pig**.
 The project demonstrates how large datasets can be stored, processed,
 queried, and analyzed efficiently using the Hadoop ecosystem.
 
----
-
 ## 🚀 Technologies Used
 
 - ☕ **Java JDK 8**
@@ -15,7 +13,6 @@ queried, and analyzed efficiently using the Hadoop ecosystem.
 - 🐷 **Apache Pig 0.17.0**
 - 🗄️ **HDFS (Hadoop Distributed File System)**
 
----
 
 ## 📂 Project Structure
 ```text
@@ -45,7 +42,6 @@ pig-hive-bigdata-project/
 ├── pig_output.png
 ```
 
----
 
 ## 📊 Dataset Description
 
@@ -68,7 +64,6 @@ Contains information about books.
 | NO_OF_BOOK  | Number of books |
 | AUTHOR_ID   | Author reference |
 
----
 
 ## 🐝 Hive Operations
 
@@ -148,7 +143,10 @@ It can be extended further using:
 - 🔥 Apache Spark
 - 📂 Real-world datasets
 
-
+## ❤️ Contributions
+Contributions are welcome!
+> Fork the repo → Create a branch → Add feature → Submit PR
+</br>M/br>
 <div align="center">
 <p>📘 This project is created strictly for educational and learning purposes.</p>
 <p>⭐ If you find this project helpful, feel free to star the repository!</p>
