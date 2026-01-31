@@ -152,7 +152,9 @@ Execute .pig scripts from the pig/ directory.
 ## 👨‍💻 Author
 
 ### Shubham Kumar
+```md
 Big Data | Hadoop | Hive | Pig
+```
 
 ## 📌 Note
 
@@ -169,6 +171,5 @@ It can be extended further using:
 
 ## ⭐ If you find this project helpful, feel free to star the repository!
 
----
 
 
